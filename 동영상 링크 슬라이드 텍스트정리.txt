@@ -1,0 +1,28 @@
+ (15초 제일상단에 쓸 영상)
+
+https://www.youtube.com/watch?v=yX9OSYlUsvU 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yX9OSYlUsvU" title="YouTube video player" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+20초짜리 중간에 들어갈영상
+
+https://www.youtube.com/watch?v=RKWu1kWLc6Y
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RKWu1kWLc6Y" title="YouTube video player" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+picture-in-picture" allowfullscreen></iframe>
+
+
+
+슬라이드 텍스트
+
+10피트의 사탕단풍나무 숯에 한 방울 한 방울씩 여과시킨 다음,
+우리가 직접 만든 수제 오크통에서 숙성시킵니다. 그리고 우리 테네시 위스키는 달력을 따르지 않는다.
+테이스터들의 테스트를 통과해야 출고 준비가 됩니다. 우리는 그것을 겉모습으로 판단한다. 그 향으로 그리고 물론 맛도 그렇고.
+ 잭 다니엘이 한 세기 전부터 해왔던 방법이다
+그리고 오늘날 우리는 여전히 그 방법을  고수해오고 있다

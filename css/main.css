@@ -1,0 +1,344 @@
+ /* * {
+    outline: solid 2px #ff0;
+}  */
+
+ .Wrap {
+     max-width: 1900px;
+     overflow: hidden;
+     background: #000;
+ }
+
+ .main_nav {
+     display: flex;
+     margin: 10px auto;
+     width: 1200px;
+     background: rgb(0, 0, 0);
+     justify-content: space-between;
+ }
+
+ .main_nav ul {
+     display: flex;
+     gap: 40px;
+     color: #fff;
+     line-height: 85px;
+ }
+
+ .main_page {
+     display: flex;
+     margin: 0 0 100px 0;
+     background: rgb(0, 0, 0);
+ }
+
+ .main_page .main_video {
+     position: relative;
+     width: 1200px;
+     margin: 0 auto;
+ }
+
+ .main_page .main_video video {
+     width: 100%;
+ }
+
+ .main_page .controls {
+     position: absolute;
+     top: 85%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+
+ .main_page .controls i {
+     font-size: 30px;
+     margin: 0 10px 0 0;
+     color: #fff;
+ }
+
+ .main_page .wheel {
+     position: absolute;
+     bottom: 10px;
+     left: 50%;
+     transform: translateX(-50%);
+     width: 30px;
+     height: 55px;
+     border: 2px solid #fff;
+     border-radius: 15px;
+     font-size: 0;
+ }
+
+ .main_page .wheel span {
+     position: absolute;
+     top: 10px;
+     left: 50%;
+     transform: translateX(-50%);
+     width: 3px;
+     height: 12px;
+     background: #fff;
+     border-radius: 1px;
+     animation: wheel 1s infinite;
+ }
+
+ @keyframes wheel {
+     to {
+         top: 15px;
+     }
+ }
+
+
+
+ .main_product {
+     margin: 0 auto;
+     width: 1200px;
+     padding: 100px 0;
+     background: rgb(0, 0, 0);
+     color: #fff;
+ }
+
+ .main_product .text_box {
+     text-align: center;
+ }
+
+ .main_product .text_box h2 {
+     font-size: 41px;
+     font-weight: 700;
+     margin: 0 0 10px 0;
+ }
+
+ .main_product .text_box p {
+     font-size: 15px;
+     font-weight: 300;
+     margin: 0 0 30px 0;
+ }
+
+ .inner {
+     width: 1200px;
+     display: flex;
+     margin: 0 150px;
+ }
+
+ /* outline: solid 2px #ff0; */
+
+ .inner .text {
+     width: 450px;
+     text-align: left;
+     padding: 30px 0 0 0;
+ }
+
+ .inner .text h3 {
+     font-size: 35px;
+     font-weight: 500;
+     line-height: 70px;
+ }
+
+ .inner .text>p {
+     margin: 0 0 70px 0;
+ }
+
+ .inner .text h4 {
+     font-size: 25px;
+     font-weight: 400;
+     line-height: 50px;
+ }
+
+ .inner .Tasting_Notes_rows {
+     display: flex;
+     margin: 0 0 20px 0;
+ }
+
+
+
+ .inner .Information_rows {
+     display: flex;
+ }
+
+ .inner .text p {
+     font-size: 15px;
+     font-weight: 300;
+     line-height: 30px;
+ }
+
+ /* .inner .text .content p::before{
+    content: ":";
+    padding: 0 10px 0 0px;
+ } */
+
+ .inner .text .content p {
+     padding: 0 0 0 15px;
+ }
+
+ .product_slide .slick-arrow {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     z-index: 999;
+
+     font-size: 0;
+     border: none;
+     background: transparent;
+
+     width: 100px;
+     height: 100px;
+     border-top: 2px solid #fff;
+     border-left: 2px solid #fff;
+     opacity: 0.3;
+     transition: 0.3s;
+ }
+
+ .product_slide .slick-arrow:hover {
+     opacity: 1;
+     transition: border 0.5s;
+ }
+
+ .product_slide .slick-prev {
+     margin: 0 0 0 -700px;
+     transform: translate(-50%, -50%) rotate(-45deg);
+ }
+
+ .product_slide .slick-next {
+     margin: 0 0 0 700px;
+     transform: translate(-50%, -50%) rotate(135deg);
+ }
+
+
+ .main_Bg_video {
+     padding: 250px 0;
+     border-top: solid 2px rgb(186, 171, 143);
+     border-bottom: solid 2px rgb(186, 171, 143);
+     text-align: center;
+     color: #fff
+ }
+
+
+ .main_Bg_video a {
+     font-size: 19px;
+     font-weight: 300;
+     top: 230px;
+ }
+
+ .main_hover {
+     padding: 100px 0;
+ }
+
+
+ .main_hover .text_box {
+     color: #fff;
+     text-align: center;
+ }
+
+ .main_hover .text_box h2 {
+     font-size: 41px;
+     font-weight: 700;
+     margin: 0 0 10px 0;
+ }
+
+ .main_hover .text_box p {
+     font-size: 15px;
+     font-weight: 300;
+     margin: 0 0 70px 0;
+ }
+
+ .main_hover .container {
+     display: flex;
+     gap: 30px;
+     width: 1200px;
+     margin: 0 auto;
+     text-align: center;
+ }
+
+ .main_hover .container figure {
+     position: relative;
+     flex: 1;
+
+ }
+
+ .main_hover img {
+     max-width: 100%;
+     transition: transform 1.5s;
+ }
+
+
+ .main_hover .container figure p {
+     position: absolute;
+     opacity: 0;
+     top: 0;
+     left: 0;
+     width: 80%;
+     height: 100%;
+     color: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     transition: width 1s;
+ }
+
+ .main_hover .container figure p {
+     font-size: 21px;
+ }
+
+ .main_hover .container figure:hover p {
+     opacity: 1;
+     width: 100px;
+ }
+
+ .main_hover .container figure:hover img {
+     transform: translateX(20px);
+ }
+
+ /* 스케일커지면서 옆에서 박스나오는거 */
+
+ /* .main_hover .container figure .box {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 0%;
+     height: 100%;
+     background: #fff;
+     color: rgba(0, 0, 0, 1);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     transition: width 1s;
+ }
+
+ .main_hover .container figure:hover .box {
+     width: 50px;
+ }
+
+ .main_hover .container figure:hover img {
+     transform: scale(1.1)
+ } */
+
+ /* html run hover01 제일 처음꺼 참고해서 만들고있었음 여기에 슬릭적용해서 슬라이드랑호버같이하는거 만들어보기 */
+
+
+
+ .main_hover .container .slick-arrow {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     z-index: 999;
+
+     font-size: 0;
+     border: none;
+     background: transparent;
+
+     width: 100px;
+     height: 100px;
+     border-top: 2px solid #fff;
+     border-left: 2px solid #fff;
+     opacity: 0.3;
+     transition: 0.3s;
+ }
+
+ .main_hover .container .slick-arrow:hover {
+     opacity: 1;
+     transition: border 0.5s;
+ }
+
+ .main_hover .container .slick-prev {
+     margin: 0 0 0 -700px;
+     transform: translate(-50%, -50%) rotate(-45deg);
+ }
+
+ .main_hover .container .slick-next {
+     margin: 0 0 0 700px;
+     transform: translate(-50%, -50%) rotate(135deg);
+ }
