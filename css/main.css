@@ -7,12 +7,18 @@
      overflow: hidden;
      background: #000;
  }
-
+.header{
+    position: fixed;
+    width: 1900px;
+    background: rgb(0, 0, 0);
+    z-index: 1000;
+}
  .main_nav {
      display: flex;
-     margin: 10px auto;
+     margin: 0 auto;
+     padding: 5px 0 0 0;
      width: 1200px;
-     background: rgb(0, 0, 0);
+     
      justify-content: space-between;
  }
 
@@ -25,7 +31,7 @@
 
  .main_page {
      display: flex;
-     margin: 0 0 100px 0;
+     margin: 0 0 200px 0;
      background: rgb(0, 0, 0);
  }
 
@@ -33,6 +39,7 @@
      position: relative;
      width: 1200px;
      margin: 0 auto;
+     padding: 100px 0 0 0;
  }
 
  .main_page .main_video video {
@@ -342,3 +349,49 @@
      margin: 0 0 0 700px;
      transform: translate(-50%, -50%) rotate(135deg);
  }
+
+ .footer {
+     background: #f1f1f1;
+     padding: 100px 0;
+ }
+
+ .footer .container {
+   text-align: center;
+ }
+
+ .footer .container .logo{
+margin: 0 0 15px 0;
+ }
+
+
+ .footer .container .logo_p{
+    margin: 0 0 30px 0;
+    font-weight: 400;
+ }
+
+
+
+
+
+ .footer .container ul li{
+display: inline-block;
+padding: 0 20px;
+margin: 0 0 50px 0;
+font-size: 17px;
+font-weight: 500;
+ }
+
+ .footer .container .sns{
+    margin: 0 0 30px 0;
+ }
+
+.footer .container i{
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+.footer .container .copyright{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+}
