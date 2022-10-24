@@ -17,7 +17,7 @@
 
  .main_nav {
      display: flex;
-     margin: 0 auto;
+     margin: 10px auto 0 auto;
      padding: 5px 0 0 0;
      width: 1200px;
      justify-content: space-between;
@@ -172,8 +172,8 @@
      padding: 0 0 0 15px;
  }
 
- .product_slide i::before{
-    vertical-align: middle;
+ .product_slide i::before {
+     vertical-align: middle;
  }
 
  .product_slide .slick-arrow {
