@@ -62,7 +62,7 @@
 
  .main_page .wheel {
      position: absolute;
-     bottom: 10px;
+     bottom: 25px;
      left: 50%;
      transform: translateX(-50%);
      width: 30px;
